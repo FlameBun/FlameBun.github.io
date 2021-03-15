@@ -1,0 +1,69 @@
+body
+{
+    background-color: #00e6dc;
+}
+
+.navbar
+{
+    background-color: #00ff5f;
+}
+
+.jumbotron
+{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card
+{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-8
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-text
+{
+    font-size: 135%;
+}
+
+.card-deck
+{
+    margin-left: 9.2%;
+    margin-right: 9.2%;
+    margin-bottom: 30px;
+}
+
+.card-indent
+{
+    text-indent: 2.0em;
+}
+
+.carousel
+{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.carousel-caption
+{
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#about-me
+{
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}

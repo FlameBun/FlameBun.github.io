@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Attractions</title>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <span class="navbar-brand mb-0 h1">Central Park</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="attractions.html">Attractions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="get" target="_blank">
+                <input class="form-control mr-sm-2" name="q" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Google Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h2 class="display-1">Attractions</h2>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Conservatory_Garden.jpg" class="d-block w-100" alt="Conservatory Garden">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><a href="https://www.centralparknyc.org/locations/conservatory-garden" target="_blank">Conservatory Garden</a></h5>
+                    <p>Indulge yourself in one of New York City's most stunning gardens.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Bethesda_Terrace_&_Fountain.jpg" class="d-block w-100" alt="Bethesda Terrace & Fountain">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><a href="https://www.centralparknyc.org/locations/bethesda-terrace" target="_blank">Bethesda Terrace & Fountain</a></h5>
+                    <p>Check out Central Park's beautiful fountain.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Belvedere_Castle.jpg" class="d-block w-100" alt="Belvedere Castle">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><a href="https://www.centralparknyc.org/locations/belvedere-castle" target="_blank">Belvedere Castle</a></h5>
+                    <p>Behold Central Park's glorious castle.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Central_Park_Mall.jpg" class="d-block w-100" alt="Central Park Mall">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><a href="https://www.centralparknyc.org/locations/the-mall-literary-walk" target="_blank">The Mall</a></h5>
+                    <p>Take a stroll in the peaceful and enthralling pathway that is the Central Park Mall.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Conservatory_Water.jpg" class="d-block w-100" alt="Conservatory Water">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><a href="https://www.centralparknyc.org/locations/conservatory-water" target="_blank">Conservatory Water</a></h5>
+                    <p>Relax and admire the scenery around the shore.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </body>
+</html>
